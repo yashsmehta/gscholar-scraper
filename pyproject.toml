@@ -1,0 +1,19 @@
+[project]
+name = "scholar-scraper"
+version = "0.1.0"
+description = "A Google Scholar profile scraper using scholarly"
+requires-python = ">=3.11"
+dependencies = [
+    "scholarly[tor]",
+    "pandas",
+    "PySocks",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.ruff]
+line-length = 88
+target-version = "py38"
+select = ["E", "F", "I", "B", "W", "C90"] 
