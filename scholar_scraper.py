@@ -1,4 +1,8 @@
 import argparse
+import warnings
+# Suppress invalid escape sequence warning from scholarly library
+warnings.filterwarnings('ignore', category=SyntaxWarning, message='invalid escape sequence')
+
 import pandas as pd
 from typing import List, Dict
 from scholarly import scholarly
