@@ -1,6 +1,6 @@
 # 🎓 Google Scholar Profile Scraper
 
-A lightning-fast, robust Python tool for scraping publication data from Google Scholar profiles. Built on top of the [scholarly](https://scholarly.readthedocs.io/) library with smart rate limiting and error handling to reliably extract research metrics.
+A Python tool for scraping publication data from Google Scholar profiles. Built on top of the [scholarly](https://scholarly.readthedocs.io/) library with smart rate limiting and error handling to reliably extract research metrics.
 
 ## ✨ Features
 
@@ -9,7 +9,6 @@ A lightning-fast, robust Python tool for scraping publication data from Google S
 - 📊 **Large Profile Support**: Handles profiles with hundreds of publications
 - 💾 **Flexible Storage**: Saves to CSV with append support for incremental updates
 - 📈 **Citation Analytics**: Shows top cited papers summary
-- 🔄 **Resilient Operation**: Robust error handling with automatic retries
 
 ## 🚀 Installation
 
@@ -98,11 +97,3 @@ Machine Learning Applications            3000      2017  Nature ML          A. J
 ## ⚠️ Disclaimer
 
 Please use responsibly and in accordance with Google Scholar's terms of service. Consider implementing appropriate delays between requests to avoid overloading their servers.
-
-## 📄 License
-
-MIT License - feel free to use for academic or commercial purposes.
-
-## 🤝 Contributing
-
-Contributions welcome! Please feel free to submit a Pull Request.
